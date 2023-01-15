@@ -547,7 +547,6 @@ GameObject:
   - component: {fileID: 2115792939}
   - component: {fileID: 2115792938}
   - component: {fileID: 2115792937}
-  - component: {fileID: 2115792942}
   - component: {fileID: 2115792941}
   - component: {fileID: 2115792943}
   - component: {fileID: 2115792944}
@@ -653,37 +652,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
---- !u!114 &2115792942
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2115792936}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a99573b5859ae647927545957084f05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fpsCam: {fileID: 963194227}
-  lookSensitivity: 4.5
-  smoothTime: 6.5
-  invertedLook: 0
-  rb: {fileID: 2115792941}
-  slipperyMaterial: {fileID: 13400000, guid: bae52d8720abcfd43b712e6c4e2788b7, type: 2}
-  acceleration: 10
-  walkMaxSpeed: 5
-  sprintMaxSpeed: 10
-  crouchMaxSpeed: 2
-  groundFriction: 7.8
-  stopInstantly: 0
-  jumpForce: 10
-  stepOffset: 1
-  WhatIsGround:
-    serializedVersion: 2
-    m_Bits: 0
-  groundCheckStartY: 0
-  groundCheckDist: 1.1
 --- !u!136 &2115792943
 CapsuleCollider:
   m_ObjectHideFlags: 0
